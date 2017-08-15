@@ -3,8 +3,8 @@ from conans import ConanFile, tools, os
 class BoostTypeofConan(ConanFile):
     name = "Boost.Typeof"
     version = "1.64.0"
-    generators = "txt"
-    url = "https://github.com/boostorg/typeof"
+    url = "https://github.com/bincrafters/conan-boost-typeof"
+    source_url = "https://github.com/boostorg/typeof"
     description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     requires =  "Boost.Level5Group/1.64.0@bincrafters/testing"
