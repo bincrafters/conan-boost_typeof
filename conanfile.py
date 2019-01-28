@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.68.0@bincrafters/stable")
 
 class BoostTypeofConan(base.BoostBaseConan):
     name = "boost_typeof"
+    version = "1.68.0"
     url = "https://github.com/bincrafters/conan-boost_typeof"
     lib_short_names = ["typeof"]
     header_only_libs = ["typeof"]
